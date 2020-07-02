@@ -8,4 +8,3 @@ resource "azurerm_app_service_plan" "plan" {
     size = var.plan["size"]
   }
 }
-
