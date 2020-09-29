@@ -28,30 +28,29 @@ common_tags = {
 This project is 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-
 ## Requirements
 
 No requirements.
 
 ## Providers
 
-| Name    | Version |
-| ------- | ------- |
-| azurerm | n/a     |
+| Name | Version |
+|------|---------|
+| azurerm | n/a |
 
 ## Inputs
 
-| Name           | Description                                        | Type  | Default                                                                                                     | Required |
-| -------------- | -------------------------------------------------- | ----- | ----------------------------------------------------------------------------------------------------------- | :------: |
-| common_tags    | This is to help you add tags to your cloud objects | `map` | n/a                                                                                                         |   yes    |
-| plan           | App service plan                                   | `map` | <pre>{<br> "name": "azure-functions-test-service-plan",<br> "size": "S1",<br> "tier": "Standard"<br>}</pre> |    no    |
-| resource_group | Resource Group                                     | `map` | n/a                                                                                                         |   yes    |
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| common\_tags | This is to help you add tags to your cloud objects | `map` | n/a | yes |
+| plan | App service plan | `map` | <pre>{<br>  "name": "azure-functions-test-service-plan",<br>  "size": "S1",<br>  "tier": "Standard"<br>}</pre> | no |
+| resource\_group | Resource Group | `map` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
-| ---- | ----------- |
-| plan | n/a         |
+|------|-------------|
+| plan | n/a |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
