@@ -1,12 +1,12 @@
 variable "common_tags" {
   description = "This is to help you add tags to your cloud objects"
-  type        = map
+  type        = map(any)
 }
 
 variable "plan" {
 
   description = "App service plan"
-  type        = map
+  type        = map(any)
   default = {
     name = "azure-functions-test-service-plan"
     tier = "Standard"
@@ -16,5 +16,5 @@ variable "plan" {
 
 variable "resource_group" {
   description = "Resource Group"
-  type        = map
+  type        = map(any)
 }

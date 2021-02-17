@@ -46,9 +46,9 @@ No requirements.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| common\_tags | This is to help you add tags to your cloud objects | `map` | n/a | yes |
-| plan | App service plan | `map` | <pre>{<br>  "name": "azure-functions-test-service-plan",<br>  "size": "S1",<br>  "tier": "Standard"<br>}</pre> | no |
-| resource\_group | Resource Group | `map` | n/a | yes |
+| common\_tags | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
+| plan | App service plan | `map(any)` | <pre>{<br>  "name": "azure-functions-test-service-plan",<br>  "size": "S1",<br>  "tier": "Standard"<br>}</pre> | no |
+| resource\_group | Resource Group | `map(any)` | n/a | yes |
 
 ## Outputs
 
