@@ -42,6 +42,16 @@ No requirements.
 |------|---------|
 | azurerm | n/a |
 
+## Modules
+
+No Modules.
+
+## Resources
+
+| Name |
+|------|
+| [azurerm_app_service_plan](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service_plan) |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -55,7 +65,6 @@ No requirements.
 | Name | Description |
 |------|-------------|
 | plan | n/a |
-
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Related Projects

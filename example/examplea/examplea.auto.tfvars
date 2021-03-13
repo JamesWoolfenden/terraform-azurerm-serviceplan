@@ -1,3 +1,4 @@
 common_tags = {
-  environment = "Development"
+  createdby = "Terraform"
+  module    = "terraform-aws-mariadb"
 }
