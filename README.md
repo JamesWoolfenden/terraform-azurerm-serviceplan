@@ -40,31 +40,31 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| azurerm | n/a |
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | n/a |
 
 ## Modules
 
-No Modules.
+No modules.
 
 ## Resources
 
-| Name |
-|------|
-| [azurerm_app_service_plan](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service_plan) |
+| Name | Type |
+|------|------|
+| [azurerm_app_service_plan.plan](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service_plan) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| common\_tags | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
-| plan | App service plan | `map(any)` | <pre>{<br>  "name": "azure-functions-test-service-plan",<br>  "size": "S1",<br>  "tier": "Standard"<br>}</pre> | no |
-| resource\_group | Resource Group | `map(any)` | n/a | yes |
+| <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
+| <a name="input_plan"></a> [plan](#input\_plan) | App service plan | `map(any)` | <pre>{<br>  "name": "azure-functions-test-service-plan",<br>  "size": "S1",<br>  "tier": "Standard"<br>}</pre> | no |
+| <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | Resource Group | `map(any)` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| plan | n/a |
+| <a name="output_plan"></a> [plan](#output\_plan) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Related Projects
