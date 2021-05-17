@@ -16,5 +16,4 @@ variable "plan" {
 
 variable "resource_group" {
   description = "Resource Group"
-  type        = map(any)
 }

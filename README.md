@@ -58,7 +58,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
 | <a name="input_plan"></a> [plan](#input\_plan) | App service plan | `map(any)` | <pre>{<br>  "name": "azure-functions-test-service-plan",<br>  "size": "S1",<br>  "tier": "Standard"<br>}</pre> | no |
-| <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | Resource Group | `map(any)` | n/a | yes |
+| <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | Resource Group | `any` | n/a | yes |
 
 ## Outputs
 
