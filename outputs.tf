@@ -1,3 +1,3 @@
 output "plan" {
-  value = azurerm_app_service_plan.plan
+  value = azurerm_service_plan.plan
 }

@@ -41,7 +41,7 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | n/a |
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 3.26.0 |
 
 ## Modules
 
@@ -51,15 +51,16 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [azurerm_app_service_plan.plan](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service_plan) | resource |
+| [azurerm_service_plan.plan](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/service_plan) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_app_service_environment_id"></a> [app\_service\_environment\_id](#input\_app\_service\_environment\_id) | n/a | `string` | `""` | no |
 | <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
-| <a name="input_plan"></a> [plan](#input\_plan) | App service plan | `map(any)` | <pre>{<br>  "name": "azure-functions-test-service-plan",<br>  "size": "S1",<br>  "tier": "Standard"<br>}</pre> | no |
 | <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | Resource Group | `any` | n/a | yes |
+| <a name="input_service_plan"></a> [service\_plan](#input\_service\_plan) | n/a | `map(any)` | <pre>{<br>  "name": "pike",<br>  "os_type": "Linux",<br>  "per_site_scaling_enabled": false,<br>  "sku_name": "P1v2",<br>  "worker_count": 1,<br>  "zone_balancing_enabled": false<br>}</pre> | no |
 
 ## Outputs
 
