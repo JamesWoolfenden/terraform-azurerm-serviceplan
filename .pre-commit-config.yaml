@@ -57,4 +57,4 @@ repos:
     rev: v0.2.5
     hooks:
       - id: pike-docs-go
-        args: ["readme","-i", "-d", "."]
+        args: ["readme", "-i", "-d", "."]
