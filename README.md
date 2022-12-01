@@ -13,9 +13,9 @@ DNS in Azure, a WIP.
 
 ```terraform
 module "appserviceplan" {
-  source                   = "JamesWoolfenden/dns/azure"
-  version                  = "0.2.0"
-  resource_group = azurerm_resource_group.resource_group
+  source                   = "JamesWoolfenden/serviceplan/azure"
+  version                  = "v0.0.1"
+  resource_group           = azurerm_resource_group.resource_group
   common_tags              = var.common_tags
 }
 ```
